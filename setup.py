@@ -1,5 +1,3 @@
-from distutils.command import install_data
-from typing_extensions import Required
 from setuptools import setup, find_packages
 
 with open("requirement.txt") as f:
