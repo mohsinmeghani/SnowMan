@@ -2,6 +2,9 @@ from distutils.command import install_data
 from typing_extensions import Required
 from setuptools import setup, find_packages
 
+with open("requirement.txt") as f:
+    required = f.read().splitlines()
+
 setup(
    name='snowflake',
    version='1.0',
@@ -9,5 +12,5 @@ setup(
    author='Mohsin',
    author_email='meghani.mohsin@gmail.com',
    packages=find_packages(),
-   install_requires= Required
+   install_requires= required
 )
