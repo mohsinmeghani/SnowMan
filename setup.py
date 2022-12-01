@@ -6,5 +6,5 @@ setup(
    description='A useful module',
    author='Mohsin',
    author_email='meghani.mohsin@gmail.com',
-   packages=['numpy']
+   packages=[]
 )
